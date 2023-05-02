@@ -14,6 +14,7 @@ namespace GeographicArea
             europe.CreateMunicipality("Giardini-Naxos");
             //Console.WriteLine($" {}"); 
             europe.ChangeMunicipality("Italy", "Sicily", "Catania", "Giardini-Naxos");
+            europe.ChangeMunicipality("Italy", "Sicily", "Messina", "Giardini-Naxos");
         }
     }
 }
