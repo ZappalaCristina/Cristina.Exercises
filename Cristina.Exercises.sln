@@ -5,7 +5,19 @@ VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeographicInformations", "GeographicInformations\GeographicInformations.csproj", "{266C4908-4FB9-46CD-B7D3-F5285645F149}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeographicArea", "GeographicArea\GeographicArea.csproj", "{4F5AB8D1-53FA-47D2-B833-A5D71F40E820}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeographicArea", "GeographicArea\GeographicArea.csproj", "{4F5AB8D1-53FA-47D2-B833-A5D71F40E820}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UECovidCounter", "UECovidCounter\UECovidCounter.csproj", "{388CC8E1-4B30-4832-AFCD-9CEC92B226D0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CeoInstitute", "CeoInstitute\CeoInstitute.csproj", "{0B967DB8-95F1-43F3-92FF-E15320C191BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SostegnoSociale", "SostegnoSociale\SostegnoSociale.csproj", "{633A40AA-FCB0-4DA3-8AFB-408F0B79AA66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EsArrayRemove", "EsArrayRemove\EsArrayRemove.csproj", "{1AFCA606-C83C-443E-AF71-0EF2A1B234E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinancialActionClass", "FinancialActionClass\FinancialActionClass.csproj", "{697F8F0A-976F-4924-B7A8-8F112867FFBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinancialActionInterface", "FinancialActionInterface\FinancialActionInterface.csproj", "{E13695A6-4A57-41D2-BE2B-5318A4587E13}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +33,30 @@ Global
 		{4F5AB8D1-53FA-47D2-B833-A5D71F40E820}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F5AB8D1-53FA-47D2-B833-A5D71F40E820}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F5AB8D1-53FA-47D2-B833-A5D71F40E820}.Release|Any CPU.Build.0 = Release|Any CPU
+		{388CC8E1-4B30-4832-AFCD-9CEC92B226D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{388CC8E1-4B30-4832-AFCD-9CEC92B226D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{388CC8E1-4B30-4832-AFCD-9CEC92B226D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{388CC8E1-4B30-4832-AFCD-9CEC92B226D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B967DB8-95F1-43F3-92FF-E15320C191BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B967DB8-95F1-43F3-92FF-E15320C191BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B967DB8-95F1-43F3-92FF-E15320C191BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B967DB8-95F1-43F3-92FF-E15320C191BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{633A40AA-FCB0-4DA3-8AFB-408F0B79AA66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{633A40AA-FCB0-4DA3-8AFB-408F0B79AA66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{633A40AA-FCB0-4DA3-8AFB-408F0B79AA66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{633A40AA-FCB0-4DA3-8AFB-408F0B79AA66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AFCA606-C83C-443E-AF71-0EF2A1B234E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AFCA606-C83C-443E-AF71-0EF2A1B234E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AFCA606-C83C-443E-AF71-0EF2A1B234E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AFCA606-C83C-443E-AF71-0EF2A1B234E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{697F8F0A-976F-4924-B7A8-8F112867FFBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{697F8F0A-976F-4924-B7A8-8F112867FFBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{697F8F0A-976F-4924-B7A8-8F112867FFBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{697F8F0A-976F-4924-B7A8-8F112867FFBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E13695A6-4A57-41D2-BE2B-5318A4587E13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E13695A6-4A57-41D2-BE2B-5318A4587E13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E13695A6-4A57-41D2-BE2B-5318A4587E13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E13695A6-4A57-41D2-BE2B-5318A4587E13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
